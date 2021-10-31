@@ -10,7 +10,6 @@ body{
 	color:#F0FC46;
 	margin: auto;
 	width: auto;
-
 } 
 .dp-menu{
 	font-size: 22px;
@@ -21,6 +20,7 @@ body{
 	list-style:  none;
 	padding: 0;
 	background-color:  var(--cor-fundo);
+	margin: auto;
 }
 
 .dp-menu ul li{
