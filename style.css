@@ -92,7 +92,6 @@ table{
 	background-color: green;
 	font-size:32px;
 	color:white;
-
 }
 table a{
 	color: var(--cor-primaria);
@@ -112,9 +111,12 @@ tr:nth-child(odd) {background: blue}
 	background-color:green;
 	color:white;
 	font-size:38px;
+	margin:auto;
 }
 #atalhos{
-	margin:auto
+	margin:auto;
+	width:auto;
+	height:auto;
 }
 footer{
 	background-color:black;
