@@ -1,8 +1,6 @@
 var js_email;
 				var js_senha;
 
-				window.alert("Coletamos cookies para melhor te atender");
-
 				function login(){
 					js_email= prompt("E-mail")
 					js_senha= prompt("Senha")
