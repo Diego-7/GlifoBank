@@ -43,11 +43,11 @@ button:hover{
 <body>
 	<div id="ficha">
 	<p>Formulário para abertura de conta</p>
-	<form name="f_cadastro" action="" method="get">
+	<form name="f_cadastro" action="" method="get" id="cadForm">
 		Nome completo: <input type="text" name="f_nomecompleto" size="52"><br>
 		Data de nascimento: <input type="date" name="f_datanasc" size="8"><br>
-		Gênero: <input type="radio" name="f_gen" value="masculino">Masculino
-		<input type="radio" name="f_gen" value="feminino">Feminino<br>
+		Gênero: <input type="radio" name="gender" value="masculino">Masculino
+		<input type="radio" name="gender" value="feminino">Feminino<br>
 		CPF: <input type="text" name="f_cpf" size="50"><br>
 		RG: <input type="text" name="f_rg" size="50"><br>
 		Endereço:<input type="text" name="f_endereco" size="50"><br>
@@ -64,4 +64,34 @@ button:hover{
 	</form>
 </div>
 </body>
+<script language="JavaScript">
+var fields = document.querySelectorAll("#cadForm [name]");
+var user = {};
+
+document.getElementById("cadForm").addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+fields.forEach(function(field, index){
+
+    if (field.name === "gender"){
+
+        if (field.checked) {
+            user[field.name] = field.value;
+        }
+
+    } else{
+
+        user[field.name] = field.value;
+    }
+   
+});
+
+console.log(user);
+
+});
+
+
+
+</script>
 </html>
