@@ -66,7 +66,7 @@ button:hover{
 </body>
 <script language="JavaScript">
 var fields = document.querySelectorAll("#cadForm [name]");
-var user = {};
+var customer = {};
 
 document.getElementById("cadForm").addEventListener("submit", function(event){
 
@@ -77,17 +77,17 @@ fields.forEach(function(field, index){
     if (field.name === "gender"){
 
         if (field.checked) {
-            user[field.name] = field.value;
+            customer[field.name] = field.value;
         }
 
     } else{
 
-        user[field.name] = field.value;
+        customer[field.name] = field.value;
     }
    
 });
 
-console.log(user);
+console.log(customer);
 
 });
 
