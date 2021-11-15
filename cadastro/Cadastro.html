@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+	<meta charset="UTF-8">
+	<title>Abertura de Conta</title>
+	<style>
+		body{
+			background-image: linear-gradient(to top, green, blue);
+			height: 100%;
+		}
+		form{
+			text-align:center;
+			font-size:30px;
+		}
+		button{
+	border-radius:20px;
+	border-color:green;
+	background-color:green;
+	color:yellow;
+	font-size:28px;
+}
+button:hover{
+	transform: scale(1.25);
+	transition: all 0.3s;
+	cursor: pointer;
+}
+		p{
+			color:yellow;
+			font-size:58px;
+			text-align:center;
+			background-color:green;
+		}
+		#registration{
+			background-color:white;
+		}
+		input{
+			height:22px;
+			font-size:22px;
+		}
+	</style>
+</head>
+<body>
+	<div id="registration">
+	<p>Formulário para abertura de conta</p>
+	<form name="f_cadastro" action="" method="get" id="regForm">
+		Nome completo: <input type="text" name="name" size="52"><br>
+		Data de nascimento: <input type="date" name="birth" size="8"><br>
+		Gênero: <input type="radio" name="gender" value="masculino">Masculino
+		<input type="radio" name="gender" value="feminino">Feminino<br>
+		CPF: <input type="text" name="cpf" size="50"><br>
+		RG: <input type="text" name="rg" size="50"><br>
+		Endereço:<input type="text" name="address" size="50"><br>
+		Bairro: <input type="text" name="neighborhood" size="50"><br>
+   Complemento: <input type="text" name="complement" size="50"><br>
+		   CEP: <input type="cep" name="cep" size="50"><br>
+		   Estado: <input type="text" name="state" size="50"><br>
+		Cidade: <input type="text" name="city" size="50"><br>
+	  Telefone: <input type="text" name="telephone" size="50"><br>	  
+	  	Celular: <input type="text" name="cellphone" size="50"><br>
+		E-mail: <input type="text" name="email" size="50"><br>
+		<button name="f_cadastrar" value="cadastrese">Cadastre-se</button>
+
+	</form>
+</div>
+<script src="models/customer.js"></script>
+<script src="controllers/CustomerController.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
