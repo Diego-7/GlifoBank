@@ -114,6 +114,20 @@ tr:nth-child(odd) {background: blue}
 	font-size:38px;
 	margin:auto;
 }
+.imgfinanciamentos{
+
+	
+	background-color: blue;
+	text-align:center;
+}
+.texto{
+	font-size:38px;
+	color:white;
+	
+	padding-top:28px;
+	background-color:green;
+	text-align:center;
+}
 #atalhos{
 	margin:auto;
 	width:auto;
