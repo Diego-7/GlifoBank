@@ -82,31 +82,47 @@ h2{
 	text-align:center;
 
 }
+.subtitulos{
+	text-align:center;
+	font-size:62px;
+}
 #vantagens{
 	background-color:green;
 	font-size:32px;
 	color:white;
 	
-	}
-
-table{
-	background-color: green;
-	font-size:32px;
-	color:white;
 }
-table a{
-	color: var(--cor-primaria);
-	text-decoration:  none;
-
+.cards{				
+background-image:url("https://img.freepik.com/vetores-gratis/cartoes-de-credito-isolados_1284-41766.jpg?size=338&ext=jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 196px;
+height: 253px;
 }
-table a:hover{
-	color: blue;
+.cripto{
+	background-image:url("https://image.freepik.com/vetores-gratis/fundo-de-tecnologia-bitcoin-com-efeito-holografico_1017-31521.jpg");
+width: 196px;
+height: 253px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
-tr:nth-child(even) {background: green}
-tr:nth-child(odd) {background: blue}
-.subtitulos{
-	font-size:58px;
-	text-align: center;
+.investiment{
+	background-image:url("https://image.freepik.com/fotos-gratis/mulher-de-negocios-usando-um-tablet-para-analisar-o-conceito-de-sucesso-de-estatisticas-de-estrategia-de-financas-de-empresa-e-planejamento-para-o-futuro-na-sala-de-escritorio_74952-1410.jpg");
+	width: 196px;
+	height: 253px;
+	background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.cellCredit{
+	background-image:url("https://image.freepik.com/vetores-gratis/ilustracao-do-conceito-de-recarga-de-credito_114360-7454.jpg");
+width: 196px;
+height: 253px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
 #listaservicos{
 	background-color:green;
@@ -133,6 +149,14 @@ tr:nth-child(odd) {background: blue}
 	margin:auto;
 	width:auto;
 	height:auto;
+	text-align:center;	
+}
+.cryptimg{
+	margin:auto;
+	width:auto;
+	height:auto;
+	text-align:center;
+	background-color:blue;
 }
 footer{
 	background-color:black;
