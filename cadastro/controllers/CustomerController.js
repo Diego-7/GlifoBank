@@ -17,14 +17,18 @@ class CustomerController{
 
             this.getValues();
 
+            this.formEl.reset();
+
         });
     }
 
     getValues(){
 
         let customer = {};
+        
 
         [...this.formEl.elements].forEach(function(field, index){
+
 
             if (field.name === "gender") {
                 
@@ -34,9 +38,13 @@ class CustomerController{
             } else{
                 customer[field.name] = field.value;
             }
+
+           
         
         });
+
         console.log(customer);
+        
 
         return new Customer(
             customer.name, 
