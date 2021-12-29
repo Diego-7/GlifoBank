@@ -61,10 +61,13 @@ button:hover{
 	transition: all 0.3s;
 	}
 #imgHeader{
-	background-image: url("https://image.freepik.com/vetores-gratis/adolescente-bebe-cafe-no-quarto-com-a-area-de-trabalho-do-hacker-a-noite_107791-5413.jpg");
+	background-image: url("../img/headimage.jpg");
+	background-repeat:repeat-x;
 	width:100%;
 	height:220px;
 }
+
+
 h1{
 	background-color:blue;
 	height:80px;
@@ -89,7 +92,7 @@ h2{
 	color:white;
 }
 .cards{				
-background-image:url("https://img.freepik.com/vetores-gratis/cartoes-de-credito-isolados_1284-41766.jpg?size=338&ext=jpg");
+background-image:url("../img/card.jpeg");
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -97,7 +100,7 @@ width: 196px;
 height: 253px;
 }
 .cripto{
-	background-image:url("https://image.freepik.com/vetores-gratis/fundo-de-tecnologia-bitcoin-com-efeito-holografico_1017-31521.jpg");
+	background-image:url("../img/crypto1.jpeg");
 width: 196px;
 height: 253px;
 background-size: cover;
@@ -105,7 +108,7 @@ background-repeat: no-repeat;
 background-position: center;
 }
 .investiment{
-	background-image:url("https://image.freepik.com/fotos-gratis/mulher-de-negocios-usando-um-tablet-para-analisar-o-conceito-de-sucesso-de-estatisticas-de-estrategia-de-financas-de-empresa-e-planejamento-para-o-futuro-na-sala-de-escritorio_74952-1410.jpg");
+	background-image:url("../img/finance.jpeg");
 	width: 196px;
 	height: 253px;
 	background-size: cover;
@@ -113,7 +116,7 @@ background-repeat: no-repeat;
 background-position: center;
 }
 .cellCredit{
-	background-image:url("https://image.freepik.com/vetores-gratis/ilustracao-do-conceito-de-recarga-de-credito_114360-7454.jpg");
+	background-image:url("../img/credit.jpeg");
 width: 196px;
 height: 253px;
 background-size: cover;
