@@ -1,15 +1,9 @@
-var js_email;
-				var js_senha;
+/*Cookie Advice Bar*/
 
-				function login(){
-					js_email= prompt("E-mail")
-					js_senha= prompt("Senha")
+function hideCookieBox(){
+    
+let cookieHide = document.querySelector('.cookie_advice');
+cookieHide.style.display = 'none'
+}
 
-					switch (parseInt(js_senha)) {
 
-						case 1234 : window.alert("Login Aprovado"); break;
-						case 4321 : window.alert('Login Aprovado'); break;
-						case 54321 : window.alert("Login aprovado"); break;
-						default : window.alert("Senha Incorreta!"); break;
-					}
-				}
