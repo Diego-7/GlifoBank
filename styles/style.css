@@ -10,46 +10,52 @@ body{
 	color:#F0FC46;
 	margin: auto;
 	width: 100%;
-	overflow-x: hidden;
+	overflow-x: hidden;	
 } 
 
-.dp-menu{
+@media (max-width: 700px){
+	body{
+		overflow-x: hidden !important; 
+	}
+}
+
+.navibar{
 	font-size: 22px;
 	font-family: 'Permanent Maker', cursive;
 	height: 53px;
 	
 }
-.dp-menu ul{
+.navibar ul{
 	list-style:  none;
 	padding: 0;
 	background-color:  var(--cor-fundo);
 	margin: auto;
 }
-.dp-menu ul li{
+.navibar ul li{
 	display: inline;
 	position: relative;
 }
-.dp-menu ul li a{
+.navibar ul li a{
 	color:  var(--cor-primaria);
 	text-decoration:  none;
 	display:  inline-block;
 	padding:  10px;
 	
 }
-.dp-menu ul li a:hover{
+.navibar ul li a:hover{
 	background-color:  var(--cor-hover);
 }
 /*sub menu*/
-.dp-menu ul ul{
+.navibar ul ul{
 	display:  none;
 	left: 0;
 	position:  absolute;
 	width:  150px;
 }
-.dp-menu ul li:hover ul{
+.navibar ul li:hover ul{
 	display:  block;	
 }
-	.dp-menu ul ul li{
+	.navibar ul ul li{
 		display:  block;
 	}
 button{
@@ -204,3 +210,4 @@ footer a:hover{
   align-items: center;
   justify-content: space-between;
 }
+
