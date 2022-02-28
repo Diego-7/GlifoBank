@@ -95,7 +95,7 @@ button:hover{
 		position: absolute;
 		display: flex;
 		padding-bottom: 5px;
-		background-color: --cor-primaria;
+		background-color: var(--cor-primaria);
 		flex-direction: column;
 		width: 300px;
 		color: var(--cor-hover);
