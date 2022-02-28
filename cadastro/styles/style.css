@@ -1,7 +1,125 @@
+:root{
+	--cor-fundo : #1104DB;
+	--cor-hover : #007D0B;
+	--cor-primaria : #FFF;
+	--cor-texto : #DCFF05;
+}
+
 body{
     background-image: linear-gradient(to top, green, blue);
     background-size: cover;
 }
+
+    .navibar{
+        font-size: 22px;
+        font-family: 'Permanent Maker', cursive;
+        height: 53px;	
+        background-color:  var(--cor-fundo);
+        text-align: center;
+    }
+    .navibar ul{
+        list-style:  none;
+        padding: 0;
+        background-color:  var(--cor-hover);
+        margin: auto;
+    }
+    .navibar ul li{
+        display: inline;
+        position: relative;
+        
+    }
+    .navibar ul li a{
+        color:  var(--cor-primaria);
+        text-decoration:  none;
+        display:  inline-block;
+        padding: 15px;
+    }
+    
+    .navibar ul li a:hover{
+        background-color:  transparent;
+        border-style:groove;
+        border-color: transparent;
+        border-radius:15px;
+        
+    }
+    /*sub menu*/
+    .navibar ul ul{
+        display:  none;
+        left: 0;
+        position:  absolute;
+        width:  auto;
+    }
+    .navibar ul li:hover ul{
+        display:  block;
+        
+    }
+        .navibar ul ul li{
+            display:  block;
+        }
+    
+        .navibar ul ul li:hover{
+            background-color: var(--cor-fundo);
+            border-radius: 15px;
+            
+        }
+    
+    button{
+        border-radius:5px;
+        border-color:var(--cor-hover);
+        background-color:var(--cor-hover);
+        color:var(--cor-texto);
+        font-size:28px;
+        font-family: 'Moon Dance', cursive;
+        cursor: pointer;
+    }
+    
+    button:hover{
+        transform: scale(1.25);
+        transition: all 0.3s;
+        background-color: #125740
+        }
+    
+        .login{
+            margin: 5px 0px 0px 5px;
+            z-index: 10;
+            position: absolute;
+            display: flex;
+            padding-bottom: 5px;
+            background-color: var(--cor-primaria);
+            flex-direction: column;
+            width: 300px;
+            color: var(--cor-hover);
+            display: none;
+        }
+    
+        .login input{
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        
+        .login button{
+            display: block;
+            margin: auto;
+            border-radius: 5px;
+            transform: none;
+            width: 100px;
+        }
+        
+        .login button:hover{
+            background-color: #125740 !important;
+        }
+    
+        .loginClose{
+            display: none;
+            }
+    
+            .loginBtn{
+                width: 100%;
+                height: 100%;
+            }
+    
+
+
 form{
     text-align:center;
     font-size:30px;	

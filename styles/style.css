@@ -147,6 +147,7 @@ h1{
 
 .body_items img{
 	margin-top:12px;
+	margin-left: 20px;
 	border-radius: 32px;
 	max-width:99%;
 }
@@ -259,9 +260,48 @@ footer a{
   justify-content: space-between;
 }
 
-@media (max-width: 700px){
+@media (max-width: 480px){
 	body{
 		overflow-x: hidden !important; 
 		text-align: center !important;
+		width: 100%;
+	}
+
+	.body_items img{
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+}
+
+@media (max-width: 767px){
+	body{
+		overflow-x: hidden !important; 
+		text-align: center !important;
+		width: 100%;
+	}
+
+	.body_items img{
+		display: flex;
+		flex-direction: column;
+		text-align:center;
+	}
+	.subtitles p{
+		font-size:48px !important;
+	}
+	
+}
+
+@media (max-width: 1024px){
+	body{
+		display: inline-block;
+		overflow-x: hidden !important; 
+		text-align: center !important;
+		width: 100%;
+	}
+
+	.body_items img{
+		display: inline-block;
+		margin-left: 128px;
 	}
 }
