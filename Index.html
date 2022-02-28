@@ -32,9 +32,10 @@
 </head>
 <body>
 	<header>
-	<nav class="navibar">
-	<ul>
-		<li><button name="btn_enter" value="enter" onclick="login()">Entrar</button>
+		<nav class="navibar">
+			<button name="btn_enter" onclick="logIn()" class="loginBtn">Entrar</button>
+						<button class="loginClose">Fechar</button>
+			<ul>	
 		<li><a href="#">Inicio</a></li>
 		<li><a href="#">Streamer</a>
 			<ul>
@@ -54,13 +55,26 @@
 				<li><a href="#">Serviços</a></li>
 			</ul>
 		</li>
-		
 	</ul>
 </nav>	
-	</div>
+
+
+	
+					
+<div class="login">
+
+	<label>E-mail:</label>
+	<input type="email" />
+	<label>Senha:</label>
+	<input type="password" />
+	<button>Login</button>
+
+</div>
+
 	<div id="imgHeader"></div>	
 	<h1>Glifo Bank</h1>
 	</header>
+	
 	<container class="new_account">
 	<h2>
 	<p>O banco pensado em você gamer, geek e amante da tecnologia.</p>
@@ -162,4 +176,3 @@
 			<script src="scripts\js.js"></script>
 		</body>
 		</html>
-

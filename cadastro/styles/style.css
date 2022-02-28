@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to top, green, blue);
+    background-size: cover;
+}
+form{
+    text-align:center;
+    font-size:30px;	
+}
+
+form label{
+display: flex;
+justify-content:space-around;
+}
+
+button{
+border-radius:5px;
+border-color:green;
+background-color:green;
+color:yellow;
+font-size:28px;
+cursor: pointer;
+padding: auto;
+height: 100%;
+}
+button:hover{
+transform: scale(1.25);
+transition: all 0.3s;
+background-color: #125740
+}
+p{
+    color:yellow;
+    font-size:58px;
+    text-align:center;
+    background-color:green;
+}
+#registration{
+    background-color:white;
+}
+input{
+    height:22px;
+    font-size:22px;
+}
+
+@media screen and (max-width: 700px){
+    input{
+       width: 90%; 
+    }
+
+    form{
+        width: 100%;
+    }
+}

@@ -4,63 +4,44 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="author" content="Diego Ramos">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
 	<title>Abertura de Conta</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<style>
-		body{
-			background-image: linear-gradient(to top, green, blue);
-			background-size: cover;
-		}
-		form{
-			text-align:center;
-			font-size:30px;	
-		}
-		button{
-	border-radius:20px;
-	border-color:green;
-	background-color:green;
-	color:yellow;
-	font-size:28px;
-}
-button:hover{
-	transform: scale(1.25);
-	transition: all 0.3s;
-	cursor: pointer;
-}
-		p{
-			color:yellow;
-			font-size:58px;
-			text-align:center;
-			background-color:green;
-		}
-		#registration{
-			background-color:white;
-		}
-		input{
-			height:22px;
-			font-size:22px;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="styles/style.css" />
 </head>
 <body>
 	<div id="registration">
 	<p>Formulário para abertura de conta</p>
 	<form name="f_cad" action="" method="get" id="regForm">
-		Nome completo:<br> <input type="text" required name="name" size="52"><br>
-		Data de nascimento:<br> <input type="date" required name="birth" size="8"><br>
-		Gênero:<br> <input type="radio" required name="gender" value="male">Masculino
+		<label>Nome completo:</label>
+		<input type="text" required name="name" size="52"><br>
+		<label>Data de nascimento:</label>
+		<input type="date" required name="birth" size="8"><br>
+		<label>Gênero:</label>
+		<input type="radio" required name="gender" value="male">Masculino
 		<input type="radio" required name="gender" value="female">Feminino<br>
-		CPF:<br> <input type="text" required name="cpf" size="50"><br>
-		RG:<br> <input type="text" required name="rg" size="50"><br>
-		Endereço:<br><input type="text" required name="address" size="50"><br>
-		Bairro:<br> <input type="text" required name="neighborhood" size="50"><br>
-   Complemento:<br> <input type="text" name="complement" size="50"><br>
-		   CEP:<br> <input type="cep" required name="cep" size="50"><br>
-		   Estado:<br> <input type="text" required name="state" size="50"><br>
-		Cidade:<br> <input type="text" required name="city" size="50"><br>
-	  Telefone:<br> <input type="text" name="telephone" size="50"><br>	  
-	  	Celular:<br> <input type="text" name="cellphone" size="50"><br>
-		E-mail:<br> <input type="text" required name="email" size="50"><br>
+		<label>CPF:</label>
+		<input type="text" required name="cpf" size="50"><br>
+		<label>RG:</label>
+		<input type="text" required name="rg" size="50"><br>
+		<label>Endereço:</label>
+		<input type="text" required name="address" size="50"><br>
+		<label>Bairro:</label>
+		<input type="text" required name="neighborhood" size="50"><br>
+		<label>Complemento:</label>
+		<input type="text" name="complement" size="50"><br>
+		   <label>CEP:</label>
+		   <input type="cep" required name="cep" size="50"><br>
+		   <label>Estado:</label>
+		   <input type="text" required name="state" size="50"><br>
+		<label>Cidade:</label>
+		<input type="text" required name="city" size="50"><br>
+	  <label>Telefone:</label>
+	  <input type="text" name="telephone" size="50"><br>	  
+	  	<label>Celular:</label>
+		  <input type="text" name="cellphone" size="50"><br>
+		<label>E-mail:</label>
+		<input type="text" required name="email" size="50"><br>
 		<button name="f_cadastrar" value="signup">Cadastre-se</button>
 
 	</form>
