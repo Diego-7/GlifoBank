@@ -301,7 +301,9 @@ footer a{
 	}
 
 	.body_items img{
-		display: inline-block;
-		margin-left: 128px;
+		display: flex;
+		flex-direction: column;
+		text-align:center;
+		
 	}
 }
