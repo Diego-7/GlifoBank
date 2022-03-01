@@ -260,7 +260,8 @@ footer a{
   justify-content: space-between;
 }
 
-@media (max-width: 480px){
+@media (max-width: 1024px){
+
 	body{
 		overflow-x: hidden !important; 
 		text-align: center !important;
@@ -272,38 +273,9 @@ footer a{
 		flex-direction: column;
 		margin: auto;
 	}
-}
 
-@media (max-width: 767px){
-	body{
-		overflow-x: hidden !important; 
-		text-align: center !important;
-		width: 100%;
-	}
-
-	.body_items img{
-		display: flex;
-		flex-direction: column;
-		text-align:center;
-	}
 	.subtitles p{
 		font-size:48px !important;
 	}
-	
-}
 
-@media (max-width: 1024px){
-	body{
-		display: inline-block;
-		overflow-x: hidden !important; 
-		text-align: center !important;
-		width: 100%;
-	}
-
-	.body_items img{
-		display: flex;
-		flex-direction: column;
-		text-align:center;
-		
-	}
 }
