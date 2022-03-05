@@ -29,17 +29,15 @@ class CustomerController{
 
         [...this.formEl.elements].forEach(function(field, index){
 
-
             if (field.name === "gender") {
                 
                 if (field.checked) {
                     customer[field.name] = field.value;
                 }
+                
             } else{
                 customer[field.name] = field.value;
             }
-
-           
         
         });
 
