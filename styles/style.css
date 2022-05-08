@@ -272,6 +272,7 @@ footer a{
 		display: flex;
 		flex-direction: column;
 		margin: auto;
+		width: 85%;
 	}
 
 	.subtitles p{
